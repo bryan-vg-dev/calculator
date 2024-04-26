@@ -54,3 +54,47 @@ html {
     "one two three equal"
     "zero decimal clear equal";
 }
+
+.one{
+    grid-area: one;
+}
+
+.two{
+    grid-area: two;
+}
+
+.three{
+    grid-area: three;
+}
+
+.four{
+    grid-area: four;
+}
+
+.five{
+    grid-area: five;
+}
+
+.six{
+    grid-area: six;
+}
+
+.seven{
+    grid-area: seven;
+}
+
+.eight{
+    grid-area: eight;
+}
+
+.nine{
+    grid-area: nine;
+}
+
+.zero{
+    grid-area: zero;
+}
+
+.equal{
+    grid-area: equal;
+}
