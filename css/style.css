@@ -38,4 +38,19 @@ html {
     color: var(--grey-050);
     width: 16.25rem;
     padding: 0.75rem 1rem;
+    text-align: right;
+    font-size: 1.5rem;
 }
+
+.calculator__key {
+    background: var(--grey-300);
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-areas: 
+    ". . . ."
+    "seven eight nine equal"
+    "four five six equal"
+    "one two three equal"
+    "zero decimal clear equal";
+}
+
