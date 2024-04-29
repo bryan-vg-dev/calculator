@@ -29,6 +29,12 @@ html {
     line-height: 1.4;
 }
 
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .calculator{
     box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0);
 }
@@ -97,4 +103,8 @@ html {
 
 .equal{
     grid-area: equal;
+}
+
+.equal{
+    background: var(--orange-500);
 }
